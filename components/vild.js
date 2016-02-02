@@ -1,9 +1,11 @@
-angular.module('start', []);
-angular.module('journey', []);
+angular.module('Data', []);
+angular.module('Start', ['Data']);
+angular.module('Journey', ['Data']);
 
 angular.module('vilda-jakten', [
-    'start',
-    'journey',
+    'Data',
+    'Start',
+    'Journey',
     'ngRoute'
 ]).
 config(['$routeProvider', function ($routeProvider) {
@@ -18,4 +20,4 @@ config(['$routeProvider', function ($routeProvider) {
 
     $routeProvider.otherwise({
     redirectTo: '/'})
-}])
+}]);
