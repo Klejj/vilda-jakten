@@ -1,5 +1,4 @@
 angular.module("start")
-.controller("StartCtrl", [,
-    function() {
+.controller("StartCtrl", function() {
 
 }])
