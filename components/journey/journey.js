@@ -1,5 +1,5 @@
 angular.module("journey")
-    .controller("JourneyCtrl", ['$scope', '$location', function($scope, $location) {
+    .controller("JourneyCtrl", ['$scope', '$http', function($scope, $http) {
         var text = "Test";
 
         $http.get('/journey/data').success(function(data, status, headers, config) {
