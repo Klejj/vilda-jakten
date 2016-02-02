@@ -3,4 +3,4 @@ angular.module("start")
         $scope.go = function(p) {
             $scope.key = p;
         }
-});
+}]);
