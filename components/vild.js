@@ -1,8 +1,8 @@
 angular.module('start', []);
 
 angular.module('vilda-jakten', [
-    'start'
-    'ngRoute',
+    'start',
+    'ngRoute'
 ]).
 config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/', {
