@@ -1,4 +1,6 @@
 angular.module("start")
-.controller("StartCtrl", function() {
-
+    .controller("StartCtrl", ['$scope', function($scope) {
+        $scope.go = function(p) {
+            $scope.key = p;
+        }
 });
