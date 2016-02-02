@@ -1,9 +1,9 @@
-angular.module('Data', []);
+//angular.module('Data', []);
 angular.module('Start', ['Data']);
 angular.module('Journey', ['Data']);
 
 angular.module('vilda-jakten', [
-    'Data',
+//    'Data',
     'Start',
     'Journey',
     'ngRoute'
