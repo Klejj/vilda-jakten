@@ -1,6 +1,6 @@
 angular.module('Data', []);
-angular.module('Start', []);
-angular.module('Journey', []);
+angular.module('Start', ['Data']);
+angular.module('Journey', ['Data']);
 
 angular.module('vilda-jakten', [
     'Data',
