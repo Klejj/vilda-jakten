@@ -6,7 +6,7 @@ angular.module('vilda-jakten', [
 ]).
 config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/', {
-        templateUrl: 'template/start.html',
+        templateUrl: 'components/start/start.html',
         controller: 'StartCtrl'
     });
 }])
