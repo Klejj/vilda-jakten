@@ -1,5 +1,5 @@
 angular.module("Journey", ['Data'])
     .controller("JourneyCtrl", ['$scope', '$http', 'DataFactory', function($scope, $http, datafactory) {
-        var data = '{"iv":"FsssZvVQGWxyrEcstHMF3A==", "v":1, "iter":1000, "ks":128, "ts":64, "mode":"ccm", "adata":"", "cipher":"aes", "salt":"XzLHwbYDXoo=", "ct":"0UsfTPdP8A9TByk0j/EqfoztEQKrRg=="}',
+        var data = '{"iv":"KB2CCO2Ya9/tP/f9B0viCg==","v":1,"iter":1000,"ks":128,"ts":64,"mode":"ccm","adata":"","cipher":"aes","salt":"RiEDgwTfG6k=","ct":"itq6wAP5CLUItit/gFLuArnUYSAFOw=="}',
         text = sjcl.decrypt(datafactory.getKey, data);
 }]);
