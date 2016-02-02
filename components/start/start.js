@@ -1,7 +1,7 @@
 angular.module("Start")
-    .controller("StartCtrl", ['$scope', '$location', 'Data', function($scope, $location, Data) {
+    .controller("StartCtrl", ['$scope', '$location', 'Data', function($scope, $location, data) {
         $scope.go = function(p) {
-            DataFactory.setKey(p);
+            data.DataFactory.setKey(p);
             $location.path("/journey");
         }
 }]);
