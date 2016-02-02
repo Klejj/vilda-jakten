@@ -1,5 +1,5 @@
 angular.module("Data")
-.factory('Data', function() {
+.factory('DataFactory', function() {
     var data = {
         key: ''
     };
