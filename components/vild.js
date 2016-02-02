@@ -3,9 +3,9 @@ angular.module('Start', ['Data']);
 angular.module('Journey', ['Data']);
 
 angular.module('vilda-jakten', [
-    'Data',
     'Start',
     'Journey',
+    'Data',
     'ngRoute'
 ]).
 config(['$routeProvider', function ($routeProvider) {
