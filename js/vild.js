@@ -1,4 +1,4 @@
-angular.module('vilda-jakten'. [
+angular.module('vilda-jakten', [
 ]).
 config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/', {
